@@ -19,3 +19,35 @@ Route::get('blog', function () {
 Route::get('satu', function () {
 	return view('pertama');
 });
+
+Route::get('dua', function () {
+	return view('kedua');
+});
+
+Route::get('tiga', function () {
+    return view('bootstrap1');
+});
+
+Route::get('empat', function () {
+    return view('bootstrapcsslat2');
+});
+
+Route::get('lima', function () {
+    return view('linktree');
+});
+
+Route::get('enam', function () {
+    return view('js1');
+});
+
+Route::get('tujuh', function () {
+    return view('validasi');
+});
+
+Route::get('delapan', function () {
+    return view('index');
+});
+
+Route::get('ETS', function () {
+    return view('atlsn');
+});
