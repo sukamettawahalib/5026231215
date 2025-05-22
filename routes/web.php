@@ -16,6 +16,10 @@ Route::get('blog', function () {
 	return view('blog');
 });
 
+Route::get('frontend', function () {
+    return view('frontend');
+});
+
 Route::get('satu', function () {
 	return view('pertama');
 });
